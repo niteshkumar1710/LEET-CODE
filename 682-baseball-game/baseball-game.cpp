@@ -14,10 +14,11 @@ public:
             }
             else if(operations[i]=="+")
             {
-                stack<int> temp = st;
-                int a=temp.top();
-                temp.pop();
-                int b =temp.top();
+                
+                int a=st.top();
+                st.pop();
+                int b =st.top();
+                st.push(a);
                 
                 st.push(a+b);
             }
