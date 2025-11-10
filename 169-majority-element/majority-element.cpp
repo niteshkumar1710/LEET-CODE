@@ -11,7 +11,7 @@ public:
         //     for(int i=0;i<hash.size();i++)
         //     {
         //         if(hash[i]>maxElement){
-        //             maxElement=hash[i];
+        //             maxElement=ha`sh[i];
         //             index=i;
         //         }
 
