@@ -13,7 +13,7 @@ public:
         // }
 
         // return k; 
-        int i=0;
+       int i=0;
         int cnt=1;
         for (int j=1;j<nums.size();j++)
         {
@@ -21,7 +21,7 @@ public:
             {
                 cnt++;
                 if(cnt<=2){
-                    nums[i+1]=nums[j];
+                    nums[i+1]=nums[j];//if this is not used at last for input 001111233 will be 001123233 to know in detail see last page of the note that learned array playlist
                     i++;
                 }
                
