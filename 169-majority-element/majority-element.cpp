@@ -17,7 +17,7 @@ public:
 
         //     }
         //     return index;
-
+ 
         // }
         unordered_map<int, int> hash; // Hash map to store frequencies
         for (int num : nums) {
